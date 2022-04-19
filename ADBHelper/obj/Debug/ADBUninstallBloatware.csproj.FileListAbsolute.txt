@@ -1,0 +1,11 @@
+D:\Code\C#\ADBUninstallBloatware\ADBUninstallBloatware\bin\Debug\ADBUninstallBloatware.exe.config
+D:\Code\C#\ADBUninstallBloatware\ADBUninstallBloatware\bin\Debug\ADBUninstallBloatware.exe
+D:\Code\C#\ADBUninstallBloatware\ADBUninstallBloatware\bin\Debug\ADBUninstallBloatware.pdb
+D:\Code\C#\ADBUninstallBloatware\ADBUninstallBloatware\obj\Debug\ADBUninstallBloatware.csprojAssemblyReference.cache
+D:\Code\C#\ADBUninstallBloatware\ADBUninstallBloatware\obj\Debug\ADBUninstallBloatware.ConnectionForm.resources
+D:\Code\C#\ADBUninstallBloatware\ADBUninstallBloatware\obj\Debug\ADBUninstallBloatware.Properties.Resources.resources
+D:\Code\C#\ADBUninstallBloatware\ADBUninstallBloatware\obj\Debug\ADBUninstallBloatware.csproj.GenerateResource.cache
+D:\Code\C#\ADBUninstallBloatware\ADBUninstallBloatware\obj\Debug\ADBUninstallBloatware.csproj.CoreCompileInputs.cache
+D:\Code\C#\ADBUninstallBloatware\ADBUninstallBloatware\obj\Debug\ADBUninstallBloatware.exe
+D:\Code\C#\ADBUninstallBloatware\ADBUninstallBloatware\obj\Debug\ADBUninstallBloatware.pdb
+D:\Code\C#\ADBUninstallBloatware\ADBUninstallBloatware\bin\Debug\Resources\adb.zip
