@@ -36,12 +36,12 @@ namespace ADBHelper
             {
                 if (state == 1) // if device is connected to computer, run "adb devices"
                 {
-                    HelperForm.ADBCommand("devices", true, true, false);
+                    HelperForm.ADBCommand("devices");
                 }
                 if (state == 2) // if user says they've allowed usb debugging
                 {
                     // if we don't get a response from the phone through the adb shell, we're not connected. back to stage 1.
-                    if (HelperForm.ADBCommand("shell pm list packages", false).Equals(""))
+                    if (HelperForm.ADBCommand("shell pm list packages --user 0", false).Equals(""))
                     {
                         MessageBox.Show("Your device is not connected; perhaps you didn't follow the instructions correctly? Read the instructions and follow every step.");
                         state = -1;
