@@ -85,7 +85,7 @@ namespace ADBHelper
             ApplicationsCheckedListBox.Items.Clear();
             ApplicationList.Clear();
             // gets list of packages and populates ApplicationsCheckedListBox
-            foreach (string name in ADBCommand($"shell pm list packages{(SystemAppsRadioButton.Checked ? " -s" : "")}{(ThirdPartyAppsRadioButton.Checked ? " -3" : "")}{(EnabledAppsRadioButton.Checked ? " -e" : "")}{(DisabledAppsRadioButton.Checked ? " -d" : "")}", false).Replace("package", "").Replace(Environment.NewLine, "").Substring(1).Split(':'))
+            foreach (string name in ADBCommand($"shell pm list packages --user 0{(SystemAppsRadioButton.Checked ? " -s" : "")}{(ThirdPartyAppsRadioButton.Checked ? " -3" : "")}{(EnabledAppsRadioButton.Checked ? " -e" : "")}{(DisabledAppsRadioButton.Checked ? " -d" : "")}", false).Replace("package", "").Replace(Environment.NewLine, "").Substring(1).Split(':'))
             {
                 if (name.Contains(SearchTextBox.Text))
                     ApplicationsCheckedListBox.Items.Add(name);
