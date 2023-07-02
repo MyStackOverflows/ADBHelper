@@ -64,7 +64,7 @@ namespace ADBHelper
 
         public static string ADBCommand(string command, bool wait = true, bool hidden = true)
         {
-            ProcessStartInfo info = new ProcessStartInfo("adb.exe", command);
+            ProcessStartInfo info = new ProcessStartInfo("adb.exe", command + " --user 0");
             info.UseShellExecute = false;
             info.RedirectStandardOutput = true;
             if (hidden)

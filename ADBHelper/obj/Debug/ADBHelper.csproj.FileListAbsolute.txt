@@ -11,3 +11,16 @@ D:\Code\C#\ADBHelper\ADBHelper\obj\Debug\ADBHelper.pdb
 D:\Code\C#\ADBHelper\ADBHelper\obj\Debug\ADBHelper.HelperForm.resources
 D:\Code\C#\ADBHelper\ADBHelper\obj\Debug\ADBHelper.csproj.AssemblyReference.cache
 D:\Code\C#\ADBHelper\ADBHelper\obj\Debug\ADBHelper.csproj.SuggestedBindingRedirects.cache
+D:\Code\ADBHelper\ADBHelper\bin\Debug\Resources\adb.zip
+D:\Code\ADBHelper\ADBHelper\bin\Debug\ADBHelper.exe.config
+D:\Code\ADBHelper\ADBHelper\bin\Debug\ADBHelper.exe
+D:\Code\ADBHelper\ADBHelper\bin\Debug\ADBHelper.pdb
+D:\Code\ADBHelper\ADBHelper\obj\Debug\ADBHelper.csproj.AssemblyReference.cache
+D:\Code\ADBHelper\ADBHelper\obj\Debug\ADBHelper.csproj.SuggestedBindingRedirects.cache
+D:\Code\ADBHelper\ADBHelper\obj\Debug\ADBHelper.ConnectionForm.resources
+D:\Code\ADBHelper\ADBHelper\obj\Debug\ADBHelper.HelperForm.resources
+D:\Code\ADBHelper\ADBHelper\obj\Debug\ADBHelper.Properties.Resources.resources
+D:\Code\ADBHelper\ADBHelper\obj\Debug\ADBHelper.csproj.GenerateResource.cache
+D:\Code\ADBHelper\ADBHelper\obj\Debug\ADBHelper.csproj.CoreCompileInputs.cache
+D:\Code\ADBHelper\ADBHelper\obj\Debug\ADBHelper.exe
+D:\Code\ADBHelper\ADBHelper\obj\Debug\ADBHelper.pdb
