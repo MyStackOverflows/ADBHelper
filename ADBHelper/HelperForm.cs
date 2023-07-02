@@ -62,9 +62,11 @@ namespace ADBHelper
                 RefetchApplicationList();
         }
 
-        public static string ADBCommand(string command, bool wait = true, bool hidden = true)
+        public static string ADBCommand(string command, bool wait = true, bool hidden = true, bool connected = true)
         {
-            ProcessStartInfo info = new ProcessStartInfo("adb.exe", command + " --user 0");
+            if (connected)
+                command = command + " --user 0";
+            ProcessStartInfo info = new ProcessStartInfo("adb.exe", command);
             info.UseShellExecute = false;
             info.RedirectStandardOutput = true;
             if (hidden)

@@ -36,7 +36,7 @@ namespace ADBHelper
             {
                 if (state == 1) // if device is connected to computer, run "adb devices"
                 {
-                    HelperForm.ADBCommand("devices");
+                    HelperForm.ADBCommand("devices", true, true, false);
                 }
                 if (state == 2) // if user says they've allowed usb debugging
                 {
